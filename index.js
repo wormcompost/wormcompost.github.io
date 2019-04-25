@@ -1,17 +1,16 @@
 $(document).ready(function(){
 
-    $("#buckets").mouseover(function(){
-        $("#inside").removeClass("hidden");
-        $("#outside").addClass("hidden");
+    $("#buckets").click(function(){
+        if ( $("#inside").hasClass("hidden")) {
+            $("#inside").removeClass("hidden");
+            $("#outside").addClass("hidden");
+
+        } else {
+            $("#outside").removeClass("hidden");
+            $("#inside").addClass("hidden");
+        }
+       
    });
 
-   $("#buckets").mouseout(function(){
-
-    $("#outside").removeClass("hidden");
-    $("#inside").addClass("hidden");
 });
-});
-
-
-
    

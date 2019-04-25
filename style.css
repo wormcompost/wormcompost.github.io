@@ -2,10 +2,32 @@ body {
     text-align: center;
     position: relative;
 }
+li {
+    text-align: left;
+}
+h1 {
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-color: black;
+    background-color: lightgreen;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+h2 {
+    margin: 20px;
+}
 .bucket {
-    max-width: 75%;
     max-height: 600px;
 }
+.col  {
+    border-radius: 10px;
+    margin: 5px;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    background-color: rgb(181, 253, 181);
+
+}
+
 .hidden {
     visibility: hidden;
 }
@@ -18,6 +40,7 @@ body {
     z-index: -1;
 }
 #buckets {
-    width: 100%;
-    height: 100%;
+    width: 75%;
+    height: 50%;
+    text-align: left;
 }
